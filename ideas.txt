@@ -1,0 +1,11 @@
+ * mostrar eventos perto de mim
+ * fazer scroll na lista para o dia de hj automaticamente
+ * ter o "sobre" a aparecer aquando scroll
+ * search no topo por artista e localização
+ * abrir localizacao em app de mapping externa
+ ? marcar notificar de eventos
+ ? adicionar evento ao calendário
+ * partilhar um item
+ * partilhar app
+ * about > licença, sources, disponibilidade para freelancing, contacto, logo github
+ * donativos paypal, bitcoin ou transferencia bancaria?

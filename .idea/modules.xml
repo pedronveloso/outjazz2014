@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OutJazz2014.iml" filepath="$PROJECT_DIR$/OutJazz2014.iml" />
+      <module fileurl="file://$PROJECT_DIR$/outjazz/outjazz.iml" filepath="$PROJECT_DIR$/outjazz/outjazz.iml" />
+    </modules>
+  </component>
+</project>
+
