@@ -10,11 +10,13 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.AbsListView;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.pedronveloso.outjazz2014.outjazz.R;
+import com.pedronveloso.outjazz2014.outjazz.adapters.EventsAdapter;
+import com.pedronveloso.outjazz2014.outjazz.logic.JazzEvent;
+import com.pedronveloso.outjazz2014.outjazz.logic.JazzEventsBuilder;
 import com.pedronveloso.outjazz2014.outjazz.uiextras.AlphaForegroundColorSpan;
 import com.pedronveloso.outjazz2014.outjazz.uiextras.KenBurnsView;
 
@@ -40,6 +42,8 @@ public class NoBoringActionBarActivity extends Activity {
     private SpannableString mSpannableString;
 
     private TypedValue mTypedValue = new TypedValue();
+
+    private ArrayList<JazzEvent> mJazzEvents;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,13 +71,10 @@ public class NoBoringActionBarActivity extends Activity {
     }
 
     private void setupListView() {
-        ArrayList<String> FAKES = new ArrayList<String>();
-        for (int i = 1; i < 100; i++) {
-            FAKES.add("Evento " + i);
-        }
+        mJazzEvents = JazzEventsBuilder.buildEvents();
         mPlaceHolderView = getLayoutInflater().inflate(R.layout.view_header_placeholder, mListView, false);
         mListView.addHeaderView(mPlaceHolderView);
-        mListView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, FAKES));
+        mListView.setAdapter(new EventsAdapter(this, mJazzEvents));
         mListView.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(AbsListView view, int scrollState) {

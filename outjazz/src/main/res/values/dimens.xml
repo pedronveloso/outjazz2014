@@ -7,4 +7,13 @@
     <dimen name="header_height">250dp</dimen>
     <dimen name="header_logo_size">100dp</dimen>
 
+    <!-- margins and paddings -->
+    <dimen name="default_side_margin">6dp</dimen>
+
+    <!-- Font sizes -->
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_medium">16sp</dimen>
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_xlarge">24sp</dimen>
+
 </resources>

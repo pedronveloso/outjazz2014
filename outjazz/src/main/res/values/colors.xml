@@ -2,4 +2,13 @@
 <resources>
     <color name="main">#63C3FF</color>
     <color name="actionbar_title_color">@android:color/white</color>
+
+    <color name="black">#ff000000</color>
+    <color name="dark_grey">#ff2f2f2f</color>
+    <color name="background_color">#f1ede2</color>
+    <color name="medium_blue">#51a1c4</color>
+    <color name="grayed_blue">#69314962</color>
+    <color name="soft_blue">#d4f0fc</color>
+    <color name="brick">#fc9b7a</color>
+
 </resources>
