@@ -33,7 +33,6 @@
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:textColor="@color/black"
-            android:layout_marginTop="2dp"
             android:ellipsize="end"
             android:textSize="@dimen/font_medium"/>
 

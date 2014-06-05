@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">OutJazzy 2014</string>
-    <string name="action_settings">Settings</string>
+    <string name="about">Sobre</string>
 
 
     <string name="loreum">Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil

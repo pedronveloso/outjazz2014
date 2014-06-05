@@ -87,7 +87,6 @@ public class EventsAdapter extends BaseAdapter implements Filterable {
         } else {
             holder.name.setTextColor(mActiveTitle);
         }
-
         return convertView;
     }
 
