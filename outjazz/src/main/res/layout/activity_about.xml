@@ -28,10 +28,10 @@
             android:textSize="24sp"/>
 
 
-        <TextView
+        <com.fscz.util.TextJustifyUtils.TextViewEx
             android:id="@+id/tv_about_intro"
             android:text="@string/about_text"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textColor="@color/beige_1"
@@ -89,7 +89,8 @@
             android:fontFamily="sans-serif-condensed"
             android:textSize="24sp"/>
 
-        <TextView
+        <com.fscz.util.TextJustifyUtils.TextViewEx
+            android:id="@+id/tv_about_me_text"
             android:text="@string/about_me_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -107,7 +108,7 @@
             android:id="@+id/btn_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/email"
             android:drawableLeft="@drawable/gmail"
@@ -153,6 +154,12 @@
             android:shadowDy="2"
             android:fontFamily="sans-serif-condensed"
             android:textColor="@color/beige_1"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
 
     </LinearLayout>
 

@@ -8,8 +8,8 @@ import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
+import com.fscz.util.TextJustifyUtils.TextViewEx;
 import com.pedronveloso.outjazz2014.outjazz.R;
 
 public class AboutActivity extends Activity implements View.OnClickListener {
@@ -18,8 +18,12 @@ public class AboutActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
-        TextView tvIntro = (TextView) findViewById(R.id.tv_about_intro);
-        tvIntro.setText(Html.fromHtml(getString(R.string.about_text)));
+        TextViewEx tvIntro = (TextViewEx) findViewById(R.id.tv_about_intro);
+        tvIntro.setText(Html.fromHtml(getString(R.string.about_text)).toString(), true);
+        //TextJustifyUtils.justify(tvIntro);
+
+        TextViewEx tvAuthor = (TextViewEx) findViewById(R.id.tv_about_me_text);
+        tvAuthor.setText(getString(R.string.about_me_text), true);
 
         Button btnAux = (Button) findViewById(R.id.btn_email);
         btnAux.setOnClickListener(this);
