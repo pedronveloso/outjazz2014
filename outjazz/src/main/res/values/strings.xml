@@ -3,8 +3,6 @@
 
     <string name="app_name">OutJazzy 2014</string>
     <string name="about">Sobre</string>
-
-
     <string name="loreum">Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil
         posset accedere, moriendi autem sensum celeritas abstulit; quo de genere mortis difficile
         dictu est; quid homines suspicentur, videtis; hoc vere tamen licet dicere, P. Scipioni ex
@@ -19,4 +17,27 @@
         iumentorum emensis venit Petobionem oppidum Noricorum, ubi reseratae sunt insidiarum
         latebrae omnes, et Barbatio repente apparuit comes, qui sub eo domesticis praefuit,
         cum Apodemio agente in rebus milites ducens, quos beneficiis suis oppigneratos</string>
+
+    <string name="title_activity_about">Sobre</string>
+    <string name="about_text"><![CDATA[
+    O <b><i>OutJazzy</i></b> é uma aplicação não oficial sobre os eventos do MEO OutJazz de 2014. O autor, <b>Pedro Veloso</b>,
+    não se encontra de qualquer forma afiliado ao evento ou à marca <i>MEO</i>. Toda a informação aqui contida foi
+    manualmente introduzida pelo autor e encontra-se portanto passível de erros.
+    Esta aplicação e todo o seu código fonte encontra-se disponível sobre o a licença <b>Apache 2.0</b>, clique em baixo para saber mais.
+    ]]></string>
+
+    <string name="license">Licença</string>
+    <string name="email">pedro.n.veloso@gmail.com</string>
+    <string name="github">GitHub</string>
+    <string name="gplus">G+</string>
+    <string name="send_email">Enviar Email</string>
+    <string name="source_code">Código Fonte</string>
+
+    <string name="about_me_title">Sobre o autor</string>
+    <string name="about_me_text">Gostou do meu trabalho,
+        tem um projecto no qual gostaria de inquirir sobre a minha participação ou quer
+        simplesmente enviar-me feedback relativamente a esta aplicação? Pode contactar-me
+        ou encontrar mais informações sobre mim nos seguintes links:</string>
+
+
 </resources>

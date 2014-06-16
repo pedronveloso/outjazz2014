@@ -3,6 +3,10 @@
     <color name="main">#63C3FF</color>
     <color name="actionbar_title_color">@android:color/white</color>
 
+    <color name="beige_1">#EEE0B6</color>
+    <color name="beige_2">#F5CF94</color>
+    <color name="beige_3">#fffff1c7</color>
+
     <color name="black">#ff000000</color>
     <color name="dark_grey">#ff2f2f2f</color>
     <color name="background_color">#f1ede2</color>

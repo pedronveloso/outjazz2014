@@ -2,6 +2,7 @@ package com.pedronveloso.outjazz2014.outjazz.screens;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.text.Spannable;
@@ -84,6 +85,8 @@ public class NoBoringActionBarActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_info) {
+            Intent aboutScreen = new Intent(this, AboutActivity.class);
+            startActivity(aboutScreen);
             return true;
         }
         return super.onOptionsItemSelected(item);
