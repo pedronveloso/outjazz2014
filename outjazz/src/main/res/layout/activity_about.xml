@@ -46,14 +46,14 @@
 
         <Button
             android:id="@+id/btn_license"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/license"
             android:textSize="20sp"
             android:shadowColor="@color/beige_2"
-            android:shadowRadius="3"
+            android:shadowRadius="1"
             android:shadowDx="0"
             android:shadowDy="2"
             android:fontFamily="sans-serif-condensed"
@@ -62,14 +62,14 @@
 
         <Button
             android:id="@+id/btn_source"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/source_code"
             android:textSize="20sp"
             android:shadowColor="@color/beige_2"
-            android:shadowRadius="3"
+            android:shadowRadius="1"
             android:shadowDx="0"
             android:shadowDy="2"
             android:fontFamily="sans-serif-condensed"
@@ -106,7 +106,7 @@
 
         <Button
             android:id="@+id/btn_email"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_gravity="center_horizontal"
@@ -118,47 +118,50 @@
             android:shadowRadius="3"
             android:shadowDx="0"
             android:shadowDy="2"
+            android:gravity="left|center_vertical"
             android:fontFamily="sans-serif-condensed"
             android:textColor="@color/beige_1"/>
 
         <Button
             android:id="@+id/btn_github"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/github"
             android:drawableLeft="@drawable/github"
             android:drawablePadding="10dp"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:shadowColor="@color/beige_2"
             android:shadowRadius="3"
             android:shadowDx="0"
             android:shadowDy="2"
+            android:gravity="left|center_vertical"
             android:fontFamily="sans-serif-condensed"
             android:textColor="@color/beige_1"/>
 
         <Button
             android:id="@+id/btn_gplus"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/gplus"
             android:drawableLeft="@drawable/gplus"
             android:drawablePadding="10dp"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:shadowColor="@color/beige_2"
             android:shadowRadius="3"
             android:shadowDx="0"
             android:shadowDy="2"
+            android:gravity="left|center_vertical"
             android:fontFamily="sans-serif-condensed"
             android:textColor="@color/beige_1"/>
 
         <View
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="18dp"
             />
 
     </LinearLayout>
